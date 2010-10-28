@@ -1,7 +1,6 @@
 var jade = require('jade');
 var express = require('express');
 var app = express.createServer();
-var sys = require('sys');
 
 app.get('/books', function (request, response) {
     var options = {
